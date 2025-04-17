@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(rgb(62, 62, 255), rgb(196, 0, 203));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    padding: 30px;
+    width: 400px;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+  
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+  
+#input {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+  
+#qrcodeButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(62, 62, 255);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
+  
+#qrcodeButton:hover {
+    background-color: rgb(41, 41, 170);
+}
+  
+#qrcode {
+    margin: 20px 70px;
+}
+  
+.inputs {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+  
+.inputDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.inputDiv h2 {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
